@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('lifespan_predictor_model.pkl')
 
 # Title and description
-st.title("Lifespan Prediction App")
+st.title("Lifespan Prediction App by Zinnat")
 st.write("This app predicts lifespan based on age, sex, smoking habits, height, and weight.")
 
 # User input form
